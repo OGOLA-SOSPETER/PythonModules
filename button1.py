@@ -1,4 +1,7 @@
 from tkinter import *
+
+import label as label
+
 def callback():
     label.configure(text='Button clicked')
     root = Tk()
